@@ -73,6 +73,17 @@ section#courses .nav-link {
 
 /*! ----------- 6- CONTACT SECTION ------------ */
 
-/** -------------- UP-BUTTON ------------------ */
-
 /*! --------------- 7- FOOTER ----------------- */
+
+footer i {
+  font-size: 2rem;
+  color: white;
+  transition: color 1s;
+  margin-right: 0.8rem;
+}
+
+footer i:hover {
+  color: var(--red);
+}
+
+/** -------------- UP-BUTTON ------------------ */

@@ -564,7 +564,7 @@
             </div>
           </div>
 
-          <form class="row g-3">
+          <form class="row g-3 mt-4">
             <div class="col-md-6">
               <input
                 type="text"
@@ -589,27 +589,58 @@
                 placeholder="Enter your subject"
               />
             </div>
-            <div class="col-12">
+            <div class="col-12 form-floating">
               <textarea
                 type="text"
                 class="form-control"
                 id="comment"
-                placeholder="Enter your Comment"
+                placeholder="Enter your somment"
               ></textarea>
+              <label for="comment">Enter your comments</label>
             </div>
 
             <div class="col-12">
-              <button type="submit" class="btn btn-danger">Sign in</button>
+              <button type="submit" class="btn btn-danger" style="width: 7rem">
+                Submit
+              </button>
             </div>
           </form>
         </article>
 
-        <article id="location"></article>
+        <article id="location" class="mt-3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51375.88027575822!2d30.451154502517586!3d36.40937633711623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c23688d5941d43%3A0x67f6609d433d9788!2sOlympos%20Beach!5e0!3m2!1sen!2str!4v1663183615401!5m2!1sen!2str"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen="true"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </article>
       </section>
     </main>
     <!-- FOOTER -->
-    <footer></footer>
+    <footer class="bg-dark text-center text-white p-4">
+      <article>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </article>
+      <article class="p-4 h-6">
+        ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Copyright by Atun
+      </article>
+    </footer>
     <!-- UP-BTN -->
+
+    <a class="btn-up" href="#body">
+      <i class="fas fa-arrow-up"></i>
+    </a>
 
     <!-- SCRIPTS -->
     <script
